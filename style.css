@@ -249,3 +249,15 @@ body{
     color:#a0a0a0;
 
 }
+@media screen and (max-width:1200px){
+    .main-container{
+        grid-template-columns: 1fr;
+        padding:20px;
+    }
+    .sidebar{
+        position:static;
+        height:auto;
+    }
+    
+}
+
