@@ -1,0 +1,243 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #141414f8;
+    color:#0a0a0a;
+    font-family:sans-serif;
+    line-height:1.6;
+
+}
+.main-container{
+    display:grid;
+    max-width:1200px;
+    grid-template-columns:350px 1fr;
+    gap:40px;
+    padding-top:40px;
+    margin:auto;
+}
+.sidebar{
+    height:90vh;
+    background-color: #2a2a2a;
+    border:1px solid #3a3a3a;
+    border-radius: 16px;
+    padding:40px;
+}
+.main-content{ 
+    background-color: #2a2a2a;
+    border-radius: 16px;
+    border:1px solid #3a3a3a;
+    padding:40px;
+
+}
+.profile-pic{
+    text-align:center;
+}
+.profile-pic img{
+    height:120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom:20px;
+    border:1px solid #3a3a3a;
+}
+.name{
+    color:#e0e0e0;
+    font-size:1.5rem;
+    font-weight:600;
+}
+.title{
+    color:#bfc214;
+    font-size:0.9rem;
+    margin-bottom:20px;
+    border:2px solid #3a3a3a;
+    display:inline-block;
+}
+.contact{
+    margin-top: 30px;
+    border-top:3px solid #3a3a3a;
+    padding-top:20px;
+}
+#em{
+    font-weight:500px;
+    font-size:0.9rem ;
+    color:#a0a0a0;
+    margin:15px;
+}
+#value{
+    color:#e0e0e0;
+    text-decoration: none;
+}
+.social-media{
+    margin-top: 30px;
+    border-top:3px solid #3a3a3a;
+    padding-top:20px;
+    text-align:center;
+}
+.social-media img{
+    height:24px;
+    width:24px;
+    margin-right: 5px;
+    filter:grayscale(1) invert(0.7);
+    transition: filter 0.3s ease;
+}
+.social-media img:hover{
+    filter:grayscale(0) invert(0);
+}
+
+#navigation{
+    display:flex;
+    justify-content: flex-end;
+    gap:40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+}
+#navigation nav a{
+    text-decoration: none;
+    color:#c0baba;
+      padding:10px 20px;
+
+}
+#navigation nav a:hover{
+    color:#bfc214
+}
+.active{
+    color:#bfc214;
+}
+#About{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+}
+.heading{
+    color:#e0e0e0;
+    font-size:2rem;
+    margin-bottom: 15px;
+}
+.line{
+    width: 50px;
+    height: 5px;
+    color:#bfc214;
+    background-color: #bfc214;
+}
+.content{
+    text-align: justify;
+    color:#a0a0a0;
+}
+#Skills{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+}
+#Education{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+}
+#Portfolio{
+    margin-bottom: 20px;
+    padding:10px 20px;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 4px;
+}
+.skill-item{
+    padding:30px;
+    border:2px solid #3a3a3a;
+    background-color: #1e1e1e;
+    margin-top:30px;
+    border-radius:10px;
+    
+
+}
+.skill-item img{
+    height: 48px;
+    width:48px;
+   
+}
+.edtech{
+    position:relative;
+}
+.edtech p{
+    color:#a0a0a0;
+}
+
+.edfirst ,.edsecond{
+    position:relative;
+    padding:20px;
+    margin-top: 10px;
+      color:#e0e0e0;
+    margin-left:5px;  
+}
+.edsecond{
+    padding:20px;
+    margin-top: 10px;
+    color:#e0e0e0;
+       
+}
+.year{
+    color:#a0a0a0;
+}
+.goal{
+    height:15px;
+    width:15px;
+    border-radius: 50%;
+    border:5px solid #bfc214;
+    position:absolute;
+    top: 25px;
+    left:0px;
+    z-index:5;
+} 
+
+
+.liner{
+    position:absolute;
+    width:2px;
+    top:20px;
+    bottom:0px;
+    left:10px;
+    border:3px solid #3a3a3a;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:25px;
+
+}
+.project{
+    padding:20px;
+    margin-top:20px;
+    border:2px solid #0a0a0a;
+    border-radius:10px;
+    background-color: #1e1e1e;
+    overflow:hidden;
+}
+
+.project img{
+    width:100%;
+    height:180px;
+    object-fit: cover;
+    
+    
+}
+.project nav{
+    color:#bfc214;
+    text-align: justify;
+    display:inline-block;
+    border: 1px solid #0a0a0a;
+    padding:5px;
+    margin:5px;
+
+}
+.project p{
+    color:#a0a0a0;
+}
